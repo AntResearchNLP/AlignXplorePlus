@@ -781,7 +781,7 @@ pip install -r requirements.txt
 
 ### SFT Training
 
-You should first  download the dataset from [here](https://huggingface.co/datasets/xxxxx), then generate the tokenized dataset by running the following script.
+You should first  download the dataset from [here](https://huggingface.co/datasets/VanillaH1/AlignXplorePlus-SFT/blob/main/sft.jsonl), then generate the tokenized dataset by running the following script.
 
 ```bash
 cd sft
@@ -809,7 +809,7 @@ bash sft.sh
 
 ### RL Training 
 
-You should first download the RL dataset from [here](https://huggingface.co/datasets/xxxxx) and run the following script to generate verl-format dataset.
+You should first download the RL dataset from [here](https://huggingface.co/datasets/VanillaH1/AlignXplorePlus-RL) and run the following script to generate verl-format dataset.
 
 ```bash
 cd verl
